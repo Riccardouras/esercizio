@@ -12,10 +12,11 @@ h1 {
 body {
     background-color: #d0d4d7;
     height: 58px;
+    margin: 0px;
     }
     header {
         background-color: white ;
-        mari
+        padding: 19px;
     }
     main{
         margin: 100px auto;
@@ -27,6 +28,7 @@ hr{
 }
 section {
    background-color: white;
+   padding: 14px 80px;
 }
 section input {
     border-radius: 12%;
