@@ -1,32 +1,50 @@
 * {
     box-sizing: border-box;
 }
+#pic {
+    margin: 0px;
+}
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
+    margin: 3px;
 }
-main {
-    background-color: #f6f8f9;
-    margin: 100px 200px;
+body {
+    background-color: #d0d4d7;
+    height: 58px;
+    }
+    header {
+        background-color: white ;
+        mari
+    }
+    main{
+        margin: 100px auto;
+        width: 74%;
+    }
+hr{
+    border-top: 1px solid;
+    border-color: #d0d4d7;
 }
 section {
    background-color: white;
 }
 section input {
     border-radius: 12%;
-    border: none;
+    border: 1px;
     padding: 10px;
-    width: 20%;
 }
 #bluebutton {
     background-color: rgb(71, 173, 241);
     color: white;
+    width: 78px;
 }
 #whitebutton {
-    color: #d0d4d7;
+    color: #d0d4d7 ;
+    width: 94px;
+    border-color: #d0d4d7 ;
 }
 div {
-    margin: 50pX auto;
+    margin: 10pX auto;
     font-size: 20px;
 }
 .nope::before {
@@ -37,11 +55,12 @@ div {
     content: '\2611';
     color: #96d8ca ;
 }
-h3 input{
+.editorial{
     background-color:rgb(71, 173, 241);
     color: white;
     margin-top: 8px;
-    border-radius: 25%;
-    padding: 10px;
-    width: 17%;
+    border-radius: 37%;
+    padding: 6px;
+    width: 9%;
+    border: 1px;
 }
