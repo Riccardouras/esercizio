@@ -33,7 +33,7 @@ section {
 }
 section input {
     border-radius: 12%;
-    border: 1px;
+    border: 1px solid;
     padding: 10px;
 }
 #bluebutton {
@@ -44,7 +44,8 @@ section input {
 #whitebutton {
     color: #d0d4d7 ;
     width: 94px;
-    border-color: #d0d4d7 ;
+    background-color: white;
+    border-color: #d0d4d7;
 }
 div {
     font-size: 13px;
