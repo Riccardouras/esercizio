@@ -13,14 +13,14 @@ body {
     background-color: #d0d4d7;
     height: 58px;
     margin: 0px;
-    }
-    header {
-        background-color: white ;
-        padding: 19px;
-    }
-    main{
-        margin: 100px auto;
-        width: 74%;
+}
+header {
+    background-color: white ;
+    padding: 19px;
+}
+main{
+    margin: 100px auto;
+    width: 74%;
     }
 hr{
     border-top: 1px solid;
@@ -84,9 +84,9 @@ div {
 }
 
 .figure i {
-color: green;
-font-size: 20px;
-padding-top: 4px;
+    color: green;
+    font-size: 20px;
+    padding-top: 4px;
 }
 
 .figurenope i {
