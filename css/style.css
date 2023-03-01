@@ -46,17 +46,56 @@ section input {
     border-color: #d0d4d7 ;
 }
 div {
-    margin: 10pX auto;
     font-size: 20px;
 }
-.nope::before {
-    content: '\2612';
-    color: red
+.check{
+    margin-right: 10px;
 }
-.check:before {
-    content: '\2611';
-    color: #96d8ca ;
+.nope{
+    margin-right: 10px;
+} 
+
+.figure{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid green;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
+
+.figurenope{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid red; 
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.flex-div{
+    display:flex;
+    align-items: center; 
+    
+}
+
+.figure i {
+color: green;
+font-size: 20px;
+padding-top: 4px;
+}
+
+.figurenope i {
+    color: red;
+    font-size: 20px;
+    padding-top: 3px;
+}
+
+
 .blue {
     background-color:rgb(71, 173, 241);
     color: white;

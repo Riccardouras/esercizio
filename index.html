@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Todoolist</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -22,20 +24,55 @@
                 <h2>&#x25BC;New Task </h2>
                 <h3 class="check"> Quarterly Newsletter <input class="blue" type="Button" value="Editorial"></h3>
             </div>
-            <div>
+             <div>
                 <h2>&#x25BC; Today</h2>
-                <h3 class="check">Recruiting blog post <input class="blue"type="Button" value="Editorial"></h3>
-                <h3 class="check">Mobile app launch <input id="purple"type="Button" value="Q1 Goals"></h3>
-                <h3 class="nope">Interview John H.<input id="green"type="Button" value="Recruiting"></h3>
-                <h3 class="check">Summit update to mobile storefronts<input id="orange" type="Button" value="Mobile"></h3>
+                 <div class="flex-div"> 
+                    <div class="figure"><i class="fa fa-check"></i></div>
+                    <h3 class="check">Recruiting blog post </h3>
+                    <input class="blue"type="Button" value="Editorial">
+                 </div>
+            <!-- one -->
+                <div class="flex-div">
+                    <div class="figure"><i class="fa fa-check"></i></div>
+                    <h3 class="check">Mobile app launch </h3>
+                    <input id="purple"type="Button" value="Q1 Goals">
+                </div>
+            <!-- two -->
+                <div class="flex-div">
+                    <div class="figurenope"><i class="fa fa-remove"></i></div>
+                    <h3 class="nope">Interview John H.</h3>
+                    <input id="green"type="Button" value="Recruiting">
+                </div>
+            <!-- three -->
+                <div class="flex-div">
+                    <div class="figure"><i class="fa fa-check"></i></div>
+                    <h3 class="check">Summit update to mobile storefronts</h3>
+                    <input id="orange" type="Button" value="Mobile">
+                </div>
             </div>
             <div>
+            <!-- four -->
                 <h2>&#x25BC; Upcoming</h2>
-                <h3 class="nope">Schedule meeting with Alex</h3>
-                <h3 class="check">Homepage refresh<input id="pink"type="Button" value="Website"></h3>
-                <h3 class="check">Onboard new Sales team members<input id="anothergreen"type="Button" value="Sales"></h3>
-                <h3 class="check">Review editorial calendar<input class="blue" type="Button" value="Editorial"></h3>
-            </div>
+                <div class="flex-div">
+                    <div class="figurenope"><i class="fa fa-remove"></i></div>
+                    <h3 class="nope">Schedule meeting with Alex</h3>  
+                </div>
+                 <div class="flex-div">
+                    <div class="figure"><i class="fa fa-check"></i></div>              
+                    <h3 class="check">Homepage refresh</h3>
+                    <input id="pink" type="button" value="Website">
+                </div>
+                <div class="flex-div">
+                    <div class="figure"><i class="fa fa-check"></i></div>              
+                    <h3 class="check">Onboard new Sales team members</h3>
+                    <input id="anothergreen" type="button" value="Sales">
+                </div>
+                <div class="flex-div">
+                    <div class="figure"><i class="fa fa-check"></i></div>              
+                    <h3 class="check">Review editorial calendar
+                    <input class="blue" type="Button" value="Editorial"></h3>
+                </div>
+            </div>    
         </section>
         
     </main>
