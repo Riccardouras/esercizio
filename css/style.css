@@ -29,6 +29,7 @@ hr{
 section {
    background-color: white;
    padding: 14px 80px;
+   border-radius: 4%;
 }
 section input {
     border-radius: 12%;
@@ -46,7 +47,7 @@ section input {
     border-color: #d0d4d7 ;
 }
 div {
-    font-size: 20px;
+    font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .check{
